@@ -12,6 +12,7 @@ cssselect==1.1.0
 decorator==4.4.0
 Flask==1.1.1
 Flask-Migrate==2.5.2
+Flask-Script==2.0.6
 Flask-SQLAlchemy==2.4.0
 hyperlink==19.0.0
 idna==2.8
@@ -24,12 +25,14 @@ Jinja2==2.10.1
 lxml==4.4.1
 Mako==1.1.0
 MarkupSafe==1.1.1
+mysqlclient==1.4.4
 numpy==1.17.0
 pandas==0.25.1
 parsel==1.5.2
 parso==0.5.1
 pexpect==4.7.0
 pickleshare==0.7.5
+pkg-resources==0.0.0
 prompt-toolkit==2.0.9
 ptyprocess==0.6.0
 pyasn1==0.4.6
