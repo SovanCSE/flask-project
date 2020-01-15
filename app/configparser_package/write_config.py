@@ -2,7 +2,7 @@ from configparser import ConfigParser
 
 config = ConfigParser()
 
-config['settings'] = {'secret_key': 12345}
+config['settings'] = {'secret_key': 1234}
 config['settings']['debug'] = 'True'
 config['settings']['log_path'] = 'app/file.log'
 
