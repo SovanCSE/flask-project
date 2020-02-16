@@ -1,0 +1,5 @@
+%yaml 1.2
+---
+ s3_path: "s3a://wdpr-afas-lst/fa_data_latest/ltf_stf/data"
+ hdfs_filepath: "syndicated/tickets/attendance_forecasting/wdw/rb-prod"
+ partition_coulmns: ['as_of_dt_month']
