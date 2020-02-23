@@ -17,12 +17,12 @@ print(type(ufo))#pandas.core.frame.DataFrame
 print(ufo.City)
 print(type(ufo.City))#pandas.core.series.Series
 
-#bucket notation  to select pandas series
+#bucket notation to select pandas series
 print(ufo['Colors Reported'])
 print(type(ufo['Colors Reported']))#pandas.core.series.Series
 
 #added new column address to existed dataframe
-ufo['Address'] = ufo.City +', '+ ufo.State
+ufo['Address'] = ufo.City + ', ' + ufo.State
 print(ufo.head())
 
 

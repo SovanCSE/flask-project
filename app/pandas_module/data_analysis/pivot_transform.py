@@ -19,3 +19,4 @@ print("Dataframe after changes of index as date & header column value as city na
 df = original_df.pivot(index='date', columns='city', values=['temperature'])
 print("Get transform dataframe only for temperature column::\n", df)
 
+
