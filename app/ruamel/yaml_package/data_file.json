@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "root_path": "/user/babun006/"
+  },
+  "stage": {
+    "root_path": "/wdpr-apps-data/rrms/stage/"
+  },
+  "prod": {
+    "root_path": "/wdpr-apps-data/rrms/prod/"
+  },
+  "latest1": {
+    "root_path": "/latest1/"
+  },
+  "latest2": {
+    "root_path": "/latest2/"
+  },
+  "latest3": {
+    "root_path": "/latest3/"
+  },
+  "stage1": {
+    "root_path": "/stage1/"
+  },
+  "stage2": {
+    "root_path": "/stage2/"
+  },
+  "stage3": {
+    "root_path": "/stage3/"
+  },
+  "s3_configuration": {
+    "kms_key": "arn:aws:kms:us-east-1:795965727170:key/7b34b707-ccda-4f90-a923-b9ab02fd5d7e",
+    "role_arn": "arn:aws:iam::722059247410:role/pdp_assumed-fa-latest_role"
+  }
+}
