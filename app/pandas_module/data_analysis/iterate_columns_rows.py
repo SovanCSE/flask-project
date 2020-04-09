@@ -1,7 +1,7 @@
 import pandas as pd
 
 orders = pd.read_table('http://bit.ly/chiporders')
-orders.head()
+print(orders.head(n=5))
 
 # Iterate one by one column(header) from dataframe
 for column in orders:
