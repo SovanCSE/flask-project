@@ -1,0 +1,11 @@
+Note1: By default empty list in python has capacity of 5 memory location
+
+Type                    List             Linkedlist
+
+Indexing                 O(1)               O(n)
+
+Insert/Delete as first   O(n)               O(1)
+
+Insert/Delete at end     O(1)-amortized     O(n)
+
+Insert/delete at middle  O(n)               O(n)

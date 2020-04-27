@@ -1,0 +1,10 @@
+###Hashing Algorithm:
+1. Calculation appiled to key to transform into address.
+2. For numeric key, divide the key by number of avialble adrresses, n, and take a remainer.
+    address = ky mod n
+3. For alphanumeric keys, divide the sum of ascii code in a key by the number of avalible
+addresses , n, and take the remainder.
+4. Folding method divides key into equal parts then addes the part together.
+  - The telephone numer 01452 8345654, becomes 01+45+28+34+56+54=218
+  - Depending on the size of the table may didive by some constant and take remainder.
+
