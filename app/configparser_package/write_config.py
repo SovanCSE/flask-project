@@ -12,7 +12,7 @@ config.set('db','db_host', 'localhost')
 config.set('db','db_port', '8080')
 
 config['files'] = {
-    'usr_cdn': False,
+    'usr_cdn': {"key": 2},
     'image_path': 'image/img.png'
 }
 

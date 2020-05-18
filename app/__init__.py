@@ -14,6 +14,7 @@ app = Flask(__name__)
 #Explicitly providing path to '.env' to access data from there.
 env_path = os.path.join(os.path.dirname(__file__), '../.env')
 load_dotenv(dotenv_path=env_path)
+os.getenv()
 
 #importing config.py app setting information
 app.config.from_object(os.getenv('app_settings'))
